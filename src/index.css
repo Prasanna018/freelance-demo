@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Add to your global CSS */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.rotate-x-5 {
+  transform: rotateX(5deg);
+}
+
+.rotate-x-2 {
+  transform: rotateX(2deg);
+}
+
+.hover\:translate-z-10:hover {
+  transform: translateZ(10px);
+}
+
+.transform {
+  transition: transform 0.3s ease;
+}
+
+.hover\:scale-102:hover {
+  transform: scale(1.02);
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+}
